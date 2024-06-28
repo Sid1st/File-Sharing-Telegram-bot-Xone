@@ -60,16 +60,16 @@ https://dashboard.shareus.io/
 # TRUE for yes FALSE if no 
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "vnshortener.com")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "publicearn.com")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "e8c8b2a7484967f953fdd7429c1b4c688e836977")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "5509f916c4f64489b70910a605b34827e8ad7c95")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "86400")) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "43200")) # Add time in seconds
 #Tutorial video for the user of your shortner on how to download.
-TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/32")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/35")
 
 #Payment to remove the token system
 #put TRUE if you want this feature
@@ -95,15 +95,15 @@ PRICE5 = os.environ.get("PRICE5", "999 rs")
 
 
 #force message for joining the channel
-FORCE_MSG = os.environ.get("FORCE_MSG", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b> 🥺")
+FORCE_MSG = os.environ.get("FORCE_MSG", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly join my Channel</b> 🥺")
 #custom caption 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", @MoviesXonee)
 #protected content so that no files can be sent from the bot to anyone. recommended False
 # TRUE for yes FALSE if no
 PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
 #used if you dont need buttons on database channel.
 # True for yes False if no
-DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE") == "TRUE" else False
+DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "False") == "TRUE" else False
 #you can add admin inside the bot
 
 
