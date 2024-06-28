@@ -30,7 +30,7 @@ API_HASH = os.environ.get("API_HASH", "0d79d297bb8f56caed2c8f08bfc17289")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002219645512"))
 #your database channel link
-CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "-1002249081198")
+CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "https://t.me/+hOGUPq95ILA0OWVl")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "5052476013"))
 #port set to default 8080
@@ -103,7 +103,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "@MoviesXonee")
 PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
 #used if you dont need buttons on database channel.
 # True for yes False if no
-DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "False") == "TRUE" else False
+DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE") == "TRUE" else False
 #you can add admin inside the bot
 
 
